@@ -1,0 +1,74 @@
+@import url("../css/style.css");
+
+fieldset {
+    margin: 10px;
+    border: .5px solid #213550;
+    color: #213550;
+    justify-content: center;
+    display: flex;
+}
+
+fieldset legend {
+    background-color: #213550;
+    border: .5 #213550;
+    border: double;
+    color: #fff;
+    padding: 2px;
+}
+
+fieldset form label {
+    width: 100px;
+    text-align: right;
+    display: inline-block;
+    padding-right: 5px;
+}
+
+fieldset form #mensagem {
+    vertical-align: top;
+}
+
+fieldset form input,
+fieldset form select,
+fieldset form textarea {
+    margin: 5px;
+}
+
+fieldset form select {
+    padding: .25rem .5rem;
+    margin: .25rem 0;
+    color: #fff;
+    background-color: #45798e;
+    border: .5px solid #213550;
+}
+
+fieldset form input[name="nome"],
+fieldset form input[name="email"],
+fieldset form input[name="assunto"] {
+    width: 300px
+}
+
+fieldset form input[type="number"]::-webkit-inner-spin-button,
+fieldset form input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+
+fieldset form input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+fieldset form div {
+    display: flex;
+    justify-content: center;
+}
+
+fieldset form button {
+    padding: .2rem .5rem;
+    margin: .25rem 0;
+    color: #fff;
+    background-color: #45798e;
+    border: .5px solid #213550;
+}
+
+fieldset form button:hover {
+    cursor: pointer;
+}

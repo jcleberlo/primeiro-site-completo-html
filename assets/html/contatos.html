@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fale Conosco</title>
+    <link rel="stylesheet" href="../css/contatos.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <div id="marca">
+                <img src="../imgs/Logo.png" alt="Logomarca Policlínica Saúde Integral">
+                <p><strong>Policlínica<br>Saúde Integral</strong></p>
+            </div>
+
+            <ul>
+                <strong>
+                    <li id="inicio"><a href="../../index.html">Início</a></li>
+                    <li id="sobre"><a href="sobre.html">Sobre nós</a></li>
+                    <li id="horarios"><a href="horarios.html">Nossos horários</a></li>
+                    <li id="contatos"><a href="contatos.html">Fale conosco</a></li>
+                </strong>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img style="width: 100%;" src="../imgs/wide-panoramic.png"
+                    alt="Imagem panorâmica da Policlínica Saúde Integral">
+            </div>
+
+            <div class="content">
+                <h1>Fale Conosco</h1>
+                <p>
+                    Na <strong>Policlínica Saúde Integral</strong>, valorizamos a comunicação aberta e transparente com
+                    nossos pacientes. Se você tiver alguma dúvida, comentário ou preocupação, gostaríamos muito de ouvir
+                    de você.
+                </p>
+                <p>
+                    Aqui estão algumas maneiras de entrar em contato conosco:
+                </p>
+
+                <fieldset>
+                    <legend>Envie uma mensagem</legend>
+                    <strong>
+                        <form name="formMensagem" onsubmit="alert('Formulário enviado')" method="post" action="#">
+                            <label id="nome">Nome: </label><input type="text" name="nome"><br>
+                            <label id="email">E-mail: </label><input type="mail" name="email"><br>
+                            <label id="telefone">Telefone: </label><input type="number" name="telefone"><br>
+                            <label>Setor: </label>
+                            <select id="setor" name="lista">
+                                <option value="">Selecione o setor</option>
+                                <option value="vendas">Vendas</option>
+                                <option value="atendimento">Atendimento</option>
+                                <option value="financeiro">Financeiro</option>
+                                <option value="administrativo">Administrativo</option>
+                                <option value="ouvidoria">Ouvidoria</option>
+                            </select><br>
+                            <label id="assunto">Assunto: </label><input type="text" name="assunto"><br>
+                            <label id="mensagem">Mensagem: </label>
+                            <textarea name="mensagem" rows="10" cols="50"></textarea><br>
+                            <div>
+                            <button type="reset">Limpar</button>
+                            <button type="submit">Enviar</button>
+                        </div>
+                        </form>
+                    </strong>
+                </fieldset>
+
+                <div>
+                    <h3>Atendimento ao cliente</h3>
+                    <li><strong>Telefone / WhatsApp</strong>: (85) 9 9988-7766 <br>
+                    <li><strong>E-mail</strong>: atendimento@policlinicasaudeintegral.com.br <br>
+                </div>
+
+                <p>
+                    <strong>Endereço</strong>: Avenida Dom Luís, 1233 - Meireles, Fortaleza - CE, 60160-110
+                </p>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.3415516529003!2d-38.49235012418292!3d-3.735537996238375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c7487e0e896c45%3A0x92d96f9c518637e0!2sAv.%20Dom%20Lu%C3%ADs%2C%201233%20-%20Meireles%2C%20Fortaleza%20-%20CE%2C%2060160-110!5e0!3m2!1spt-BR!2sbr!4v1702055976370!5m2!1spt-BR!2sbr"
+                    width="100%" height="300" style="border:.5px solid #213550;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+
+            <div class="footer">
+                <div>
+                    <h3>Atendimento ao cliente</h3>
+                    <p>
+                        <strong>Telefone / WhatsApp</strong>: (85) 9 9988-7766
+                    </p>
+                    <p>
+                        <strong>E-mail</strong>: atendimento@policlinicasaudeintegral.com.br
+                    </p>
+                    <P>
+                        <strong>Endereço</strong>: Avenida Dom Luís, 1233 - Meireles, Fortaleza - CE, 60160-110
+                    </P>
+                </div>
+
+                <div>
+                    <p>
+                        <strong>POLICLÍNICA SAÚDE INTEGRAL LTDA. CNPJ: 00.111.222/3333-44</strong>
+                    </p>
+                    <P>
+                        Copyright © 2023 Policlinica Saúde Integral. Todos os direitos reservados.
+                    </P>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
