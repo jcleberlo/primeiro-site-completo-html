@@ -12,17 +12,30 @@
     <div class="wrapper">
         <div class="menu">
             <div id="marca">
-                <img src="../imgs/Logo.png" alt="Logomarca Policlínica Saúde Integral">
-                <p><strong>Policlínica<br>Saúde Integral</strong></p>
+                <div>
+                    <img src="../imgs/Logo.png" alt="Logomarca Policlínica Saúde Integral">
+                    <p><strong>Policlínica<br>Saúde Integral</strong></p>
+                </div>
             </div>
-            <ul>
-                <strong>
-                    <li id="inicio"><a href="../../index.html">Início</a></li>
-                    <li id="sobre"><a href="sobre.html">Sobre nós</a></li>
-                    <li id="horarios"><a href="horarios.html">Nossos horários</a></li>
-                    <li id="contatos"><a href="contatos.html">Fale conosco</a></li>
-                </strong>
-            </ul>
+
+            <table class="tbMenu">
+                <tbody>
+                    <strong>
+                        <tr id="inicio">
+                            <td><a href="../../index.html">Início</a></td>
+                        </tr>
+                        <tr id="sobre">
+                            <td><a href="sobre.html">Sobre nós</a></td>
+                        </tr>
+                        <tr id="horarios">
+                            <td><a href="horarios.html">Nossos horários</a></td>
+                        </tr>
+                        <tr id="contatos">
+                            <td><a href="contatos.html">Fale conosco</a></td>
+                        </tr>
+                    </strong>
+                </tbody>
+            </table>
         </div>
 
         <div class="main">
@@ -35,8 +48,13 @@
                 <h1>Horários de Atendimento</h1>
                 <p>
                     Na <strong>Policlínica Saúde Integral</strong>, estamos comprometidos em fornecer cuidados de saúde
-                    de alta qualidade em horários convenientes para nossos pacientes. Aqui estão nossos horários de
-                    atendimento para cada especialidade:
+                    de alta qualidade em horários convenientes para nossos pacientes.
+                    Sabemos que a sua saúde é importante e que você precisa de um atendimento ágil e eficiente. Por
+                    isso, oferecemos uma variedade de especialidades médicas, com profissionais qualificados e
+                    experientes, que estão prontos para cuidar de você e da sua família.
+                </p>
+                <p>
+                    Aqui estão nossos horários de atendimento para cada especialidade:
                 </p>
 
                 <table>
@@ -48,7 +66,7 @@
                             <th>Domingos e Feriados</th>
                         </tr>
                     </thead>
-                    <tbody>
+                    <tbody id="tbodyContatos">
                         <tr>
                             <td class="especialidade"><strong>Medicina Geral</strong></td>
                             <td>7h às 20h</td>
@@ -85,8 +103,20 @@
                             <td>10h às 14h</td>
                             <td>Fechado</td>
                         </tr>
+                        <tr>
+                            <td class="especialidade"><strong>Oftalmologia</strong></td>
+                            <td>7h às 14h</td>
+                            <td>7h às 14h</td>
+                            <td>Fechado</td>
+                        </tr>
+                        <tr>
+                            <td class="especialidade"><strong>Geriatria</strong></td>
+                            <td>13h às 18h</td>
+                            <td>-</td>
+                            <td>Fechado</td>
+                        </tr>
                     </tbody>
-                    </tbody>
+
                 </table>
 
                 <p>

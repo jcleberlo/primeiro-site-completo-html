@@ -15,14 +15,10 @@ table thead th {
     color: #fff;
 }
 
-table tbody tr:nth-child(even) td {
+table #tbodyContatos tr:nth-child(even) td {
     background-color: #c5e4f0;
 }
 
-table tbody tr:hover td {
+table #tbodyContatos tr:hover td {
     background-color: #8bbccf;
-}
-
-.row {
-    margin: 5px;
 }

@@ -2,6 +2,7 @@
 
 * {
     font-family: Roboto, sans-serif;
+    box-sizing: border-box;
 }
 
 html,
@@ -29,48 +30,12 @@ body {
 }
 
 .menu {
-    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
     width: 15%;
-    padding: 10px 20px 0px;
+    padding: 10px;
     color: #213550;
     text-align: center;
-}
-
-.menu #marca {
-    padding: 5px;
-    border: double 5px #213550;
-
-    max-width: 135px;
-    width: 100%;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-.menu #marca p {
-    font-size: large;
-    margin: 10px 0;
-}
-
-.menu ul {
-    list-style-type: none;
-    padding: 0;
-    margin-top: 80px;
-    text-align: left;
-}
-
-.menu li {
-    margin: 10px 0;
-    font-size: 20px;
-}
-
-.menu ul a {
-    text-decoration: none;
-    cursor: pointer;
-    color: #213550;
-}
-
-.menu ul a:hover {
-    text-decoration: underline;
 }
 
 .menu img {
@@ -78,13 +43,68 @@ body {
     max-width: 180px;
 }
 
+.menu #marca {
+    border: double 8px #213550;
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+.menu #marca div {
+    background: #c5e4f0;
+    padding: 5px;
+}
+
+.menu #marca p {
+    font-size: 1rem;
+    margin: 0;
+}
+
+.menu .tbMenu {
+    text-align: left;
+    background-color: #213550;
+    border: 7px double #8bbccf;
+}
+
+.menu .tbMenu tbody {
+    display: flex;
+    flex-direction: column;
+    padding: 3px 10px;
+}
+
+.menu .tbMenu tbody td {
+    padding: 5px 0;
+}
+
+.menu .tbMenu tbody tr td a {
+    font-size: 1rem;
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu .tbMenu tbody tr {
+    border-bottom: 2px solid #8bbccf;
+}
+
+.menu .tbMenu tbody tr a:hover {
+    background-color: #8bbccf;
+}
+
+.menu .tbMenu tbody tr a:hover {
+    color: #213550;
+    font-weight: bolder;
+}
+
+.menu .tbMenu tbody #contatos {
+    border-bottom: none;
+}
+
 .header {
     background-color: #45798e;
 }
 
 .content {
+    display: flex;
+    flex-direction: column;
     background-color: #fff;
-    min-height: 300px;
     padding: 20px;
     color: #213550;
 }
@@ -97,13 +117,12 @@ body {
     color: #fff;
 }
 
-.footer div li {
-    text-align: center;
-
-}
-
 .footer div {
     margin-top: 30px;
+}
+
+.footer div li {
+    text-align: center;
 }
 
 .footer div p {
